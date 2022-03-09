@@ -10,10 +10,7 @@
     <div class="wrapper" style="background-color:#ffccff">
         <div class="menu">
             <a href="index.php"><img src="images/ipl-Banner.jpg" class="logo" /></a>
-            <form class="search">
-                <input type="text" placeholder="Search">
-                <button class="searchbtn">Seach</button>
-            </form>
+            <div class="search"><input type="text" placeholder="search team" id="searchbox"></div>
             <ul>
                 <li><a href="newplayers.php">NewPlayers</a></li>  
                 <li><a href="addplayers.php">AddPlayers</a></li>
