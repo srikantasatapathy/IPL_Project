@@ -1,0 +1,9 @@
+CREATE TABLE ipl 
+(
+    id integer primary key AUTO_INCREMENT,
+    playerName varchar(30) ,
+    `from` varchar(30),
+    price varchar(30),
+	isPlaying varchar(30),
+	description varchar(30)
+); 
